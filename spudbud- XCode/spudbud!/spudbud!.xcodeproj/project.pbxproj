@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA115D61FCE6C3000597F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA115D51FCE6C3000597F79 /* AppDelegate.swift */; };
+		3FA115D81FCE6C3000597F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA115D71FCE6C3000597F79 /* ViewController.swift */; };
+		3FA115DB1FCE6C3000597F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA115D91FCE6C3000597F79 /* Main.storyboard */; };
+		3FA115DD1FCE6C3000597F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA115DC1FCE6C3000597F79 /* Assets.xcassets */; };
+		3FA115E01FCE6C3000597F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA115DE1FCE6C3000597F79 /* LaunchScreen.storyboard */; };
+		3FA115EB1FCE6C3000597F79 /* spudbud_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA115EA1FCE6C3000597F79 /* spudbud_Tests.swift */; };
+		3FA115F61FCE6C3000597F79 /* spudbud_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA115F51FCE6C3000597F79 /* spudbud_UITests.swift */; };
+		3FAC0E191FDB0712008FD944 /* PlantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC0E181FDB0712008FD944 /* PlantController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA115E71FCE6C3000597F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA115CA1FCE6C3000597F79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA115D11FCE6C3000597F79;
+			remoteInfo = "spudbud!";
+		};
+		3FA115F21FCE6C3000597F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA115CA1FCE6C3000597F79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA115D11FCE6C3000597F79;
+			remoteInfo = "spudbud!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA115D21FCE6C3000597F79 /* spudbud!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spudbud!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA115D51FCE6C3000597F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA115D71FCE6C3000597F79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA115DA1FCE6C3000597F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA115DC1FCE6C3000597F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA115DF1FCE6C3000597F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA115E11FCE6C3000597F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA115E61FCE6C3000597F79 /* spudbud!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spudbud!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA115EA1FCE6C3000597F79 /* spudbud_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spudbud_Tests.swift; sourceTree = "<group>"; };
+		3FA115EC1FCE6C3000597F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA115F11FCE6C3000597F79 /* spudbud!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spudbud!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA115F51FCE6C3000597F79 /* spudbud_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spudbud_UITests.swift; sourceTree = "<group>"; };
+		3FA115F71FCE6C3000597F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FAC0E181FDB0712008FD944 /* PlantController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlantController.swift; path = "spudbud!/PlantController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA115CF1FCE6C3000597F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA115E31FCE6C3000597F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA115EE1FCE6C3000597F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA115C91FCE6C3000597F79 = {
+			isa = PBXGroup;
+			children = (
+				3FAC0E181FDB0712008FD944 /* PlantController.swift */,
+				3FA115D41FCE6C3000597F79 /* spudbud! */,
+				3FA115E91FCE6C3000597F79 /* spudbud!Tests */,
+				3FA115F41FCE6C3000597F79 /* spudbud!UITests */,
+				3FA115D31FCE6C3000597F79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA115D31FCE6C3000597F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA115D21FCE6C3000597F79 /* spudbud!.app */,
+				3FA115E61FCE6C3000597F79 /* spudbud!Tests.xctest */,
+				3FA115F11FCE6C3000597F79 /* spudbud!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA115D41FCE6C3000597F79 /* spudbud! */ = {
+			isa = PBXGroup;
+			children = (
+				3FA115D51FCE6C3000597F79 /* AppDelegate.swift */,
+				3FA115D71FCE6C3000597F79 /* ViewController.swift */,
+				3FA115D91FCE6C3000597F79 /* Main.storyboard */,
+				3FA115DC1FCE6C3000597F79 /* Assets.xcassets */,
+				3FA115DE1FCE6C3000597F79 /* LaunchScreen.storyboard */,
+				3FA115E11FCE6C3000597F79 /* Info.plist */,
+			);
+			path = "spudbud!";
+			sourceTree = "<group>";
+		};
+		3FA115E91FCE6C3000597F79 /* spudbud!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA115EA1FCE6C3000597F79 /* spudbud_Tests.swift */,
+				3FA115EC1FCE6C3000597F79 /* Info.plist */,
+			);
+			path = "spudbud!Tests";
+			sourceTree = "<group>";
+		};
+		3FA115F41FCE6C3000597F79 /* spudbud!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA115F51FCE6C3000597F79 /* spudbud_UITests.swift */,
+				3FA115F71FCE6C3000597F79 /* Info.plist */,
+			);
+			path = "spudbud!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA115D11FCE6C3000597F79 /* spudbud! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA115FA1FCE6C3000597F79 /* Build configuration list for PBXNativeTarget "spudbud!" */;
+			buildPhases = (
+				3FA115CE1FCE6C3000597F79 /* Sources */,
+				3FA115CF1FCE6C3000597F79 /* Frameworks */,
+				3FA115D01FCE6C3000597F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spudbud!";
+			productName = "spudbud!";
+			productReference = 3FA115D21FCE6C3000597F79 /* spudbud!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA115E51FCE6C3000597F79 /* spudbud!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA115FD1FCE6C3000597F79 /* Build configuration list for PBXNativeTarget "spudbud!Tests" */;
+			buildPhases = (
+				3FA115E21FCE6C3000597F79 /* Sources */,
+				3FA115E31FCE6C3000597F79 /* Frameworks */,
+				3FA115E41FCE6C3000597F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA115E81FCE6C3000597F79 /* PBXTargetDependency */,
+			);
+			name = "spudbud!Tests";
+			productName = "spudbud!Tests";
+			productReference = 3FA115E61FCE6C3000597F79 /* spudbud!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA115F01FCE6C3000597F79 /* spudbud!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA116001FCE6C3000597F79 /* Build configuration list for PBXNativeTarget "spudbud!UITests" */;
+			buildPhases = (
+				3FA115ED1FCE6C3000597F79 /* Sources */,
+				3FA115EE1FCE6C3000597F79 /* Frameworks */,
+				3FA115EF1FCE6C3000597F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA115F31FCE6C3000597F79 /* PBXTargetDependency */,
+			);
+			name = "spudbud!UITests";
+			productName = "spudbud!UITests";
+			productReference = 3FA115F11FCE6C3000597F79 /* spudbud!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA115CA1FCE6C3000597F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = spudbud.;
+				TargetAttributes = {
+					3FA115D11FCE6C3000597F79 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3FA115E51FCE6C3000597F79 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FA115D11FCE6C3000597F79;
+					};
+					3FA115F01FCE6C3000597F79 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FA115D11FCE6C3000597F79;
+					};
+				};
+			};
+			buildConfigurationList = 3FA115CD1FCE6C3000597F79 /* Build configuration list for PBXProject "spudbud!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA115C91FCE6C3000597F79;
+			productRefGroup = 3FA115D31FCE6C3000597F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA115D11FCE6C3000597F79 /* spudbud! */,
+				3FA115E51FCE6C3000597F79 /* spudbud!Tests */,
+				3FA115F01FCE6C3000597F79 /* spudbud!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA115D01FCE6C3000597F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA115E01FCE6C3000597F79 /* LaunchScreen.storyboard in Resources */,
+				3FA115DD1FCE6C3000597F79 /* Assets.xcassets in Resources */,
+				3FA115DB1FCE6C3000597F79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA115E41FCE6C3000597F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA115EF1FCE6C3000597F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA115CE1FCE6C3000597F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA115D81FCE6C3000597F79 /* ViewController.swift in Sources */,
+				3FAC0E191FDB0712008FD944 /* PlantController.swift in Sources */,
+				3FA115D61FCE6C3000597F79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA115E21FCE6C3000597F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA115EB1FCE6C3000597F79 /* spudbud_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA115ED1FCE6C3000597F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA115F61FCE6C3000597F79 /* spudbud_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA115E81FCE6C3000597F79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA115D11FCE6C3000597F79 /* spudbud! */;
+			targetProxy = 3FA115E71FCE6C3000597F79 /* PBXContainerItemProxy */;
+		};
+		3FA115F31FCE6C3000597F79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA115D11FCE6C3000597F79 /* spudbud! */;
+			targetProxy = 3FA115F21FCE6C3000597F79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA115D91FCE6C3000597F79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA115DA1FCE6C3000597F79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA115DE1FCE6C3000597F79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA115DF1FCE6C3000597F79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA115F81FCE6C3000597F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA115F91FCE6C3000597F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA115FB1FCE6C3000597F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "spudbud!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spudbud-.spudbud-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FA115FC1FCE6C3000597F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "spudbud!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spudbud-.spudbud-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FA115FE1FCE6C3000597F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "spudbud!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spudbud-.spudbud-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spudbud!.app/spudbud!";
+			};
+			name = Debug;
+		};
+		3FA115FF1FCE6C3000597F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "spudbud!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spudbud-.spudbud-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spudbud!.app/spudbud!";
+			};
+			name = Release;
+		};
+		3FA116011FCE6C3000597F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "spudbud!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spudbud-.spudbud-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "spudbud!";
+			};
+			name = Debug;
+		};
+		3FA116021FCE6C3000597F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "spudbud!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spudbud-.spudbud-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "spudbud!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA115CD1FCE6C3000597F79 /* Build configuration list for PBXProject "spudbud!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA115F81FCE6C3000597F79 /* Debug */,
+				3FA115F91FCE6C3000597F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA115FA1FCE6C3000597F79 /* Build configuration list for PBXNativeTarget "spudbud!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA115FB1FCE6C3000597F79 /* Debug */,
+				3FA115FC1FCE6C3000597F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA115FD1FCE6C3000597F79 /* Build configuration list for PBXNativeTarget "spudbud!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA115FE1FCE6C3000597F79 /* Debug */,
+				3FA115FF1FCE6C3000597F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA116001FCE6C3000597F79 /* Build configuration list for PBXNativeTarget "spudbud!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA116011FCE6C3000597F79 /* Debug */,
+				3FA116021FCE6C3000597F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA115CA1FCE6C3000597F79 /* Project object */;
+}

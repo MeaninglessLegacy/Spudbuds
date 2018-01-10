@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1114" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jyO-G6-t6M">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Parent Controller-->
+        <scene sceneID="45S-Kf-uGo">
+            <objects>
+                <tabBarController title="Parent Controller" id="jyO-G6-t6M" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="elv-u0-tMY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.49611556529998779" green="0.59709745645523071" blue="0.13196679949760437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1hx-dn-lnX" kind="relationship" relationship="viewControllers" id="Ab3-9p-1Wo"/>
+                        <segue destination="jV8-82-eSJ" kind="relationship" relationship="viewControllers" id="t9Q-en-5aA"/>
+                        <segue destination="vxG-Dg-KFU" kind="relationship" relationship="viewControllers" id="kqE-Ei-CPl"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dap-6l-Xbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="478" y="-522"/>
+        </scene>
+        <!--Settings Nav-->
+        <scene sceneID="8El-vS-HX4">
+            <objects>
+                <navigationController title="Settings Nav" id="vxG-Dg-KFU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings(light)" selectedImage="settings(light)" id="iLv-G1-F43"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8BX-8x-RAB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qIn-IC-vmR" kind="relationship" relationship="rootViewController" id="54C-Ds-dwR"/>
+                        <segue destination="qIn-IC-vmR" kind="show" id="SMd-9e-13M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U3H-iO-Q12" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1270" y="240"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="2FM-Yn-SfL">
+            <objects>
+                <tableViewController id="qIn-IC-vmR" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Settings" id="Ln8-AW-Mg8"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVd-0w-SgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2169" y="240"/>
+        </scene>
+        <!--Plants Nav-->
+        <scene sceneID="dcs-b8-tuW">
+            <objects>
+                <navigationController title="Plants Nav" id="jV8-82-eSJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Plants" image="plants(light)" selectedImage="plants(light)" id="jsx-xN-4eO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pxq-rp-pDK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Hsz-SC-T84" kind="relationship" relationship="rootViewController" id="ZjR-XS-f7w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="etI-Cd-72s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1270" y="-522"/>
+        </scene>
+        <!--Plants-->
+        <scene sceneID="oPC-OR-YQp">
+            <objects>
+                <viewController title="Plants" id="Hsz-SC-T84" customClass="plantController" customModule="spudbud_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NR4-wu-zAN"/>
+                        <viewControllerLayoutGuide type="bottom" id="rlg-EG-zV5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s4c-Iy-b6v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I6P-tJ-PUd">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ebh-wd-zDw">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aC3-gi-6cQ">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lNW-Tf-j2F">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Plants" id="xkA-Wn-nLX"/>
+                    <connections>
+                        <outlet property="PlantCollection" destination="Ebh-wd-zDw" id="cOg-K4-5mV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ttr-uS-9Rb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2168.8000000000002" y="-522.18890554722645"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="2fP-fW-IOr">
+            <objects>
+                <viewController title="Home" id="1hx-dn-lnX" customClass="ViewController" customModule="spudbud_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CGu-dG-jyA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vqa-bZ-bB2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Air-lW-EjO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ecologism" translatesAutoresizingMaskIntoConstraints="NO" id="g7C-Dp-itz">
+                                <rect key="frame" x="87" y="80" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jT5-Wy-pcq">
+                                <rect key="frame" x="51" y="261" width="272" height="357"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2247369052" green="0.78357755829999998" blue="0.62706949460000005" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home(light)" selectedImage="home(light)" id="dAC-ht-BbA"/>
+                    <connections>
+                        <outlet property="home_table" destination="jT5-Wy-pcq" id="kdY-k8-STR"/>
+                        <outlet property="x" destination="g7C-Dp-itz" id="NTq-Y6-6hx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j2Z-pm-CUz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1269.5999999999999" y="-1280.5097451274364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ecologism" width="512" height="512"/>
+        <image name="home(light)" width="25" height="25"/>
+        <image name="plants(light)" width="25" height="25"/>
+        <image name="settings(light)" width="25" height="25"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SMd-9e-13M"/>
+    </inferredMetricsTieBreakers>
+</document>
